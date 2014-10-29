@@ -1,0 +1,34 @@
+{
+    "name": "DajePHP/FastRouteMiddleware",
+    "type": "library",
+    "description": "The DajePHP FastRoute based Routing Middleware",
+    "keywords": [
+        "routing"
+    ],
+    "homepage": "http://dajephp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Giorgio Cefaro",
+            "email": "me@giorgiocefaro.com"
+        },
+        {
+            "name": "Giulio De Donato",
+            "email": "liuggio@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/http-kernel": "*",
+        "nikic/fast-route": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "DajePHP\\FastRouteMiddleware\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
